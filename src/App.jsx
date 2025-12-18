@@ -10,6 +10,8 @@ import GiftsTab from './components/GiftsTab';
 import LeaderboardTab from './components/LeaderboardTab';
 import GiftModal from './components/GiftModal';
 import SettingsModal from './components/SettingsModal';
+import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+
 
 function App() {
   const [screen, setScreen] = useState('welcome');
